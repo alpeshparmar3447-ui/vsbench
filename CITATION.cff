@@ -9,6 +9,7 @@ authors:
 version: 0.1.0
 date-released: "2026-11-12"
 license: MIT
+repository-code: "https://github.com/alpeshparmar3447-ui/vsbench"
 abstract: >-
   vsbench measures how much of a docking campaign's retrieval performance survives when the
   inactive compounds are matched to the actives on simple molecular properties. It draws

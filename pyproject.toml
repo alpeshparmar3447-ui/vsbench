@@ -43,6 +43,9 @@ dependencies = [
     "meeko>=0.5",
 ]
 
+[project.urls]
+Repository = "https://github.com/alpeshparmar3447-ui/vsbench"
+
 [project.optional-dependencies]
 # Protein-ligand interaction fingerprints (Section "interactions" of the pipeline).
 interactions = ["plip>=2.3"]
