@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "vsbench: a bias-audited virtual-screening benchmark harness"
+message: "If you use this software, please cite both the software and the accompanying paper."
+type: software
+authors:
+  - family-names: Parmar
+    given-names: Alpesh
+    email: alpeshparmar3447@gmail.com
+version: 0.1.0
+date-released: "2026-11-12"
+license: MIT
+abstract: >-
+  vsbench measures how much of a docking campaign's retrieval performance survives when the
+  inactive compounds are matched to the actives on simple molecular properties. It draws
+  three disjoint negative sets from experimentally confirmed inactives (random,
+  property-matched, and DUD-E-protocol decoys), docks them with two independent scoring
+  functions, selects receptor templates by redocking alone so that no benchmark label can
+  influence template choice, and reports retrieval metrics alongside size-controlled
+  (conditional) AUC and the performance that single molecular properties achieve on their own.
+  Receptor structure quality, binding-site detection, preparation gates, docking-box strategy,
+  interaction-fingerprint recovery and ADMET profiling are measured in the same run.
+keywords:
+  - virtual screening
+  - molecular docking
+  - benchmark
+  - decoy bias
+  - LIT-PCBA

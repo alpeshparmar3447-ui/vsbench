@@ -1,0 +1,65 @@
+{
+  "data_root": "/home/alpesh/coding/vsbench/data/raw/full_data",
+  "results_dir": "/home/alpesh/coding/vsbench/results/q1",
+  "targets": [
+    "ESR1_ant",
+    "MAPK1",
+    "MTORC1",
+    "PPARG",
+    "TP53"
+  ],
+  "n_actives": 40,
+  "n_random": 300,
+  "per_active_matched": 8,
+  "seed": 42,
+  "templates": null,
+  "box": {
+    "buffer": 6.0,
+    "min_edge": 24.0
+  },
+  "autodock": {
+    "nrun": 20,
+    "autostop": true,
+    "heuristics": true
+  },
+  "gnina": {
+    "exhaustiveness": 8,
+    "num_modes": 3,
+    "cpu": 16
+  },
+  "n_boot": 1000,
+  "n_jobs": 16,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "gnina_seed_study": {
+    "n": 60,
+    "seeds": [
+      43,
+      44
+    ]
+  },
+  "decoy_per_active": 8,
+  "decoy_pool_per_target": 4000,
+  "metals": {
+    "mode": "auto",
+    "pocket_cutoff": 8.0,
+    "monovalent_cutoff": 6.0,
+    "restore_from_pdb": true,
+    "min_frame_overlap": 0.95,
+    "pdb_cache": "/home/alpesh/coding/vsbench/data/pdb_cache"
+  },
+  "lead_selection": {
+    "top_k": 100,
+    "top_n": [
+      10,
+      20,
+      50
+    ],
+    "admet": true,
+    "interactions": true,
+    "n_jobs": 8
+  }
+}

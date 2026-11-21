@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vsbench"
+dynamic = ["version"]
+description = "Bias-audited virtual-screening benchmark: property-matched negative sets, two independent docking engines, and size-controlled retrieval metrics"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Alpesh Parmar", email = "alpeshparmar3447@gmail.com" }]
+keywords = [
+    "virtual screening",
+    "molecular docking",
+    "benchmark",
+    "decoy bias",
+    "LIT-PCBA",
+    "cheminformatics",
+    "drug discovery",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+# Lower bounds are the oldest releases whose APIs this code uses. Only the exact set in
+# requirements-lock.txt has actually been run end to end; see README, "Reproducing the paper".
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "rdkit>=2023.9.1",
+    "matplotlib>=3.7",
+    "joblib>=1.3",
+    "meeko>=0.5",
+]
+
+[project.optional-dependencies]
+# Protein-ligand interaction fingerprints (Section "interactions" of the pipeline).
+interactions = ["plip>=2.3"]
+# ADMET profiling of screened compounds; pulls in torch, so it is kept out of the core install.
+admet = ["admet-ai>=1.3"]
+dev = ["pytest>=7.4", "scikit-learn>=1.3"]
+all = ["vsbench[interactions,admet,dev]"]
+
+[project.scripts]
+vsbench = "vsbench.cli:main"
+
+[tool.hatch.version]
+path = "src/vsbench/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vsbench"]
+
+# The AutoDock4Zn parameter file is read at run time by the zinc-metalloprotein path,
+# so it has to travel with the wheel rather than only existing in a source checkout.
+[tool.hatch.build.targets.wheel.force-include]
+"src/vsbench/vendor/ad4zn/AD4Zn.dat" = "vsbench/vendor/ad4zn/AD4Zn.dat"
+"src/vsbench/vendor/ad4zn/README.md" = "vsbench/vendor/ad4zn/README.md"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/vsbench",
+    "tests",
+    "configs",
+    "scripts",
+    "PROTOCOL.md",
+    "README.md",
+    "LICENSE",
+    "CITATION.cff",
+    "pytest.ini",
+    "requirements-lock.txt",
+]

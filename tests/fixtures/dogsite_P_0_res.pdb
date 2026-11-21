@@ -1,0 +1,40 @@
+HEADER	Output of DoGSiteScorer by A. Volkamer
+HEADER	Pocket 0 with 360 binding site atoms written.
+HEADER	References: 
+HEADER	A. Volkamer et al. Analyzing the topology of active sites: on the prediction of pockets and subpockets. J. Chem. Inf. Model. 2010,50(11), 2041-52
+HEADER	A. Volkamer et al. Combining global and local measures for structure-based druggability predictions. J. Chem. Inf. Model. 2012,52,360-372
+HEADER	Geometric pocket center at  16.89  12.83   6.61 with max radius 21.85
+ATOM   1908  CB  GLU B 323      31.522  -1.178  -1.524  0.00  0.00           C
+ATOM   1909  CG  GLU B 323      32.333  -1.087  -0.234  0.00  0.00           C
+ATOM   1910  CD  GLU B 323      31.481  -0.562   0.908  0.00  0.00           C
+ATOM   1911  OE1 GLU B 323      31.262   0.659   0.950  0.00  0.00           O
+ATOM   1913  N   PRO B 324      28.191  -1.419  -1.876  0.00  0.00           N
+ATOM   1914  CA  PRO B 324      27.093  -0.953  -2.716  0.00  0.00           C
+ATOM   1915  C   PRO B 324      27.457   0.325  -3.466  0.00  0.00           C
+ATOM   1916  O   PRO B 324      28.340   1.092  -3.040  0.00  0.00           O
+ATOM   1917  CB  PRO B 324      25.992  -0.641  -1.678  0.00  0.00           C
+ATOM   1918  CG  PRO B 324      26.715  -0.226  -0.541  0.00  0.00           C
+ATOM   1919  CD  PRO B 324      27.854  -1.267  -0.452  0.00  0.00           C
+ATOM   1920  N   PRO B 325      26.757   0.595  -4.558  0.00  0.00           N
+ATOM   1922  C   PRO B 325      26.399   3.051  -4.564  0.00  0.00           C
+ATOM   1923  O   PRO B 325      25.530   2.891  -3.730  0.00  0.00           O
+ATOM   1925  CG  PRO B 325      25.170   0.583  -6.245  0.00  0.00           C
+ATOM   1926  CD  PRO B 325      25.717  -0.254  -5.162  0.00  0.00           C
+ATOM   1927  N   ILE B 326      26.931   4.231  -4.871  0.00  0.00           N
+ATOM   1928  CA  ILE B 326      26.445   5.513  -4.392  0.00  0.00           C
+ATOM   1929  C   ILE B 326      25.337   5.888  -5.345  0.00  0.00           C
+ATOM   1931  CB  ILE B 326      27.564   6.560  -4.431  0.00  0.00           C
+ATOM   1932  CG1 ILE B 326      28.871   5.979  -3.812  0.00  0.00           C
+ATOM   1933  CG2 ILE B 326      27.110   7.807  -3.741  0.00  0.00           C
+ATOM   1934  CD1 ILE B 326      29.819   7.015  -3.147  0.00  0.00           C
+ATOM   1935  N   LEU B 327      24.161   6.148  -4.797  0.00  0.00           N
+ATOM   1936  CA  LEU B 327      22.970   6.415  -5.582  0.00  0.00           C
+ATOM   1937  C   LEU B 327      22.663   7.921  -5.600  0.00  0.00           C
+ATOM   1938  O   LEU B 327      23.074   8.670  -4.709  0.00  0.00           O
+ATOM   1939  CB  LEU B 327      21.777   5.616  -5.011  0.00  0.00           C
+ATOM   1940  CG  LEU B 327      21.868   4.088  -4.930  0.00  0.00           C
+ATOM   1941  CD1 LEU B 327      20.550   3.474  -4.601  0.00  0.00           C
+ATOM   1942  CD2 LEU B 327      22.370   3.504  -6.250  0.00  0.00           C
+ATOM   1978  C   MET B 342      12.501  15.265   1.709  0.00  0.00           C
+ATOM   1980  CB  MET B 342      13.004  17.641   2.303  0.00  0.00           C
+ATOM   1981  CG  MET B 342      14.400  17.349   2.848  0.00  0.00           C
