@@ -1,0 +1,181 @@
+stratum,n_active,n_inactive,pairs,roc_auc,score,negative_set
+0,10,103,1030,0.6063106796116505,autodock-gpu,random
+1,25,75,1875,0.5530666666666667,autodock-gpu,random
+2,27,48,1296,0.3387345679012346,autodock-gpu,random
+3,17,74,1258,0.6375198728139905,autodock-gpu,random
+0,10,103,1030,0.5825242718446602,autodock-gpu (largest cluster),random
+1,25,75,1875,0.5346666666666666,autodock-gpu (largest cluster),random
+2,27,48,1296,0.3699845679012346,autodock-gpu (largest cluster),random
+3,17,74,1258,0.6283783783783784,autodock-gpu (largest cluster),random
+0,10,103,1030,0.529126213592233,gnina,random
+1,25,75,1875,0.528,gnina,random
+2,27,48,1296,0.5964506172839507,gnina,random
+3,17,74,1258,0.5596184419713831,gnina,random
+0,10,103,1030,0.5466019417475728,gnina (Vina-type),random
+1,25,75,1875,0.6272,gnina (Vina-type),random
+2,27,48,1296,0.6041666666666666,gnina (Vina-type),random
+3,17,74,1258,0.49205087440381556,gnina (Vina-type),random
+0,10,103,1030,0.5533980582524272,consensus,random
+1,25,75,1875,0.5632,consensus,random
+2,27,48,1296,0.5370370370370371,consensus,random
+3,17,74,1258,0.6279809220985691,consensus,random
+0,10,103,1030,0.3990291262135922,gnina (CNN score),random
+1,25,75,1875,0.5413333333333333,gnina (CNN score),random
+2,27,48,1296,0.6512345679012346,gnina (CNN score),random
+3,17,74,1258,0.5580286168521462,gnina (CNN score),random
+0,10,103,1030,0.566990291262136,gnina (CNN affinity),random
+1,25,75,1875,0.45866666666666667,gnina (CNN affinity),random
+2,27,48,1296,0.41975308641975306,gnina (CNN affinity),random
+3,17,74,1258,0.5262321144674086,gnina (CNN affinity),random
+0,10,103,1030,0.6359223300970874,AutoDock-GPU per heavy atom,random
+1,25,75,1875,0.4664,AutoDock-GPU per heavy atom,random
+2,27,48,1296,0.3587962962962963,AutoDock-GPU per heavy atom,random
+3,17,74,1258,0.5047694753577107,AutoDock-GPU per heavy atom,random
+0,10,103,1030,0.654368932038835,AutoDock-GPU per heavy atom^(1/3),random
+1,25,75,1875,0.5189333333333334,AutoDock-GPU per heavy atom^(1/3),random
+2,27,48,1296,0.3441358024691358,AutoDock-GPU per heavy atom^(1/3),random
+3,17,74,1258,0.6120826709062003,AutoDock-GPU per heavy atom^(1/3),random
+0,10,103,1030,0.5621359223300971,gnina (Vina-type) per heavy atom,random
+1,25,75,1875,0.5685333333333333,gnina (Vina-type) per heavy atom,random
+2,27,48,1296,0.5995370370370371,gnina (Vina-type) per heavy atom,random
+3,17,74,1258,0.44594594594594594,gnina (Vina-type) per heavy atom,random
+0,10,103,1030,0.5514563106796116,gnina (Vina-type) per heavy atom^(1/3),random
+1,25,75,1875,0.6128,gnina (Vina-type) per heavy atom^(1/3),random
+2,27,48,1296,0.6041666666666666,gnina (Vina-type) per heavy atom^(1/3),random
+3,17,74,1258,0.48330683624801274,gnina (Vina-type) per heavy atom^(1/3),random
+0,10,103,1030,0.5563106796116505,fusion: rank mean,random
+1,25,75,1875,0.5581333333333334,fusion: rank mean,random
+2,27,48,1296,0.503858024691358,fusion: rank mean,random
+3,17,74,1258,0.6081081081081081,fusion: rank mean,random
+0,10,103,1030,0.5398058252427185,fusion: reciprocal rank,random
+1,25,75,1875,0.5274666666666666,fusion: reciprocal rank,random
+2,27,48,1296,0.5339506172839507,fusion: reciprocal rank,random
+3,17,74,1258,0.6391096979332274,fusion: reciprocal rank,random
+0,10,103,1030,0.5514563106796116,fusion: redocking-weighted z,random
+1,25,75,1875,0.5589333333333333,fusion: redocking-weighted z,random
+2,27,48,1296,0.5447530864197531,fusion: redocking-weighted z,random
+3,17,74,1258,0.6303656597774245,fusion: redocking-weighted z,random
+0,10,103,1030,0.3422330097087379,interaction recall,random
+1,25,75,1875,0.4730666666666667,interaction recall,random
+2,27,48,1296,0.4826388888888889,interaction recall,random
+3,17,74,1258,0.519872813990461,interaction recall,random
+0,12,197,2364,0.5784686971235194,autodock-gpu,matched
+1,23,153,3519,0.5694799658994032,autodock-gpu,matched
+2,27,131,3537,0.4385072094995759,autodock-gpu,matched
+3,17,151,2567,0.5401246591351773,autodock-gpu,matched
+0,12,197,2364,0.5691624365482234,autodock-gpu (largest cluster),matched
+1,23,153,3519,0.5595339585109406,autodock-gpu (largest cluster),matched
+2,27,131,3537,0.4492507774950523,autodock-gpu (largest cluster),matched
+3,17,151,2567,0.5424620179197507,autodock-gpu (largest cluster),matched
+0,12,197,2364,0.583756345177665,gnina,matched
+1,23,153,3519,0.5558397271952259,gnina,matched
+2,27,131,3537,0.5561210065026859,gnina,matched
+3,17,151,2567,0.4955200623295676,gnina,matched
+0,12,197,2364,0.5541455160744501,gnina (Vina-type),matched
+1,23,153,3519,0.5987496447854505,gnina (Vina-type),matched
+2,27,131,3537,0.5298275374611252,gnina (Vina-type),matched
+3,17,151,2567,0.5079859758472925,gnina (Vina-type),matched
+0,12,197,2364,0.5714890016920474,consensus,matched
+1,23,153,3519,0.5777209434498437,consensus,matched
+2,27,131,3537,0.5219112242013005,consensus,matched
+3,17,151,2567,0.5251266069341644,consensus,matched
+0,12,197,2364,0.49238578680203043,gnina (CNN score),matched
+1,23,153,3519,0.6166524580846832,gnina (CNN score),matched
+2,27,131,3537,0.5671472999717274,gnina (CNN score),matched
+3,17,151,2567,0.5321386832878847,gnina (CNN score),matched
+0,12,197,2364,0.571912013536379,gnina (CNN affinity),matched
+1,23,153,3519,0.4370559818130151,gnina (CNN affinity),matched
+2,27,131,3537,0.494204127791914,gnina (CNN affinity),matched
+3,17,151,2567,0.39657187378262565,gnina (CNN affinity),matched
+0,12,197,2364,0.6810490693739425,AutoDock-GPU per heavy atom,matched
+1,23,153,3519,0.5433361750497301,AutoDock-GPU per heavy atom,matched
+2,27,131,3537,0.41970596550749223,AutoDock-GPU per heavy atom,matched
+3,17,151,2567,0.5153876119984417,AutoDock-GPU per heavy atom,matched
+0,12,197,2364,0.6116751269035533,AutoDock-GPU per heavy atom^(1/3),matched
+1,23,153,3519,0.5649332196646775,AutoDock-GPU per heavy atom^(1/3),matched
+2,27,131,3537,0.43469041560644617,AutoDock-GPU per heavy atom^(1/3),matched
+3,17,151,2567,0.5325282430853135,AutoDock-GPU per heavy atom^(1/3),matched
+0,12,197,2364,0.6395939086294417,gnina (Vina-type) per heavy atom,matched
+1,23,153,3519,0.5856777493606138,gnina (Vina-type) per heavy atom,matched
+2,27,131,3537,0.5193666949392141,gnina (Vina-type) per heavy atom,matched
+3,17,151,2567,0.5122711336190106,gnina (Vina-type) per heavy atom,matched
+0,12,197,2364,0.577834179357022,gnina (Vina-type) per heavy atom^(1/3),matched
+1,23,153,3519,0.5930662119920432,gnina (Vina-type) per heavy atom^(1/3),matched
+2,27,131,3537,0.5292620865139949,gnina (Vina-type) per heavy atom^(1/3),matched
+3,17,151,2567,0.514608492403584,gnina (Vina-type) per heavy atom^(1/3),matched
+0,12,197,2364,0.5710659898477157,fusion: rank mean,matched
+1,23,153,3519,0.5863881784597897,fusion: rank mean,matched
+2,27,131,3537,0.5161153519932146,fusion: rank mean,matched
+3,17,151,2567,0.5241527074405922,fusion: rank mean,matched
+0,12,197,2364,0.565989847715736,fusion: reciprocal rank,matched
+1,23,153,3519,0.5561238988348963,fusion: reciprocal rank,matched
+2,27,131,3537,0.5572519083969466,fusion: reciprocal rank,matched
+3,17,151,2567,0.5259057265290222,fusion: reciprocal rank,matched
+0,12,197,2364,0.5752961082910322,fusion: redocking-weighted z,matched
+1,23,153,3519,0.5711849957374254,fusion: redocking-weighted z,matched
+2,27,131,3537,0.5284139100932994,fusion: redocking-weighted z,matched
+3,17,151,2567,0.5251266069341644,fusion: redocking-weighted z,matched
+0,12,197,2364,0.45854483925549916,interaction recall,matched
+1,23,153,3519,0.46930946291560105,interaction recall,matched
+2,27,131,3537,0.469748374328527,interaction recall,matched
+3,17,151,2567,0.5907674328009349,interaction recall,matched
+0,25,154,3850,0.4776623376623377,autodock-gpu,decoy
+1,26,222,5772,0.40835065835065837,autodock-gpu,decoy
+2,14,131,1834,0.3999454743729553,autodock-gpu,decoy
+3,14,125,1750,0.4442857142857143,autodock-gpu,decoy
+0,25,154,3850,0.4818181818181818,autodock-gpu (largest cluster),decoy
+1,26,222,5772,0.4268884268884269,autodock-gpu (largest cluster),decoy
+2,14,131,1834,0.38685932388222466,autodock-gpu (largest cluster),decoy
+3,14,125,1750,0.446,autodock-gpu (largest cluster),decoy
+0,25,154,3850,0.4561038961038961,gnina,decoy
+1,26,222,5772,0.582986832986833,gnina,decoy
+2,14,131,1834,0.48800436205016356,gnina,decoy
+3,14,125,1750,0.4097142857142857,gnina,decoy
+0,25,154,3850,0.518961038961039,gnina (Vina-type),decoy
+1,26,222,5772,0.6311503811503811,gnina (Vina-type),decoy
+2,14,131,1834,0.49291166848418755,gnina (Vina-type),decoy
+3,14,125,1750,0.4377142857142857,gnina (Vina-type),decoy
+0,25,154,3850,0.46285714285714286,consensus,decoy
+1,26,222,5772,0.5247747747747747,consensus,decoy
+2,14,131,1834,0.44547437295528897,consensus,decoy
+3,14,125,1750,0.39257142857142857,consensus,decoy
+0,25,154,3850,0.5051948051948052,gnina (CNN score),decoy
+1,26,222,5772,0.6089743589743589,gnina (CNN score),decoy
+2,14,131,1834,0.5632497273718647,gnina (CNN score),decoy
+3,14,125,1750,0.4685714285714286,gnina (CNN score),decoy
+0,25,154,3850,0.4012987012987013,gnina (CNN affinity),decoy
+1,26,222,5772,0.4911642411642412,gnina (CNN affinity),decoy
+2,14,131,1834,0.3718647764449291,gnina (CNN affinity),decoy
+3,14,125,1750,0.3605714285714286,gnina (CNN affinity),decoy
+0,25,154,3850,0.5811688311688312,AutoDock-GPU per heavy atom,decoy
+1,26,222,5772,0.3975225225225225,AutoDock-GPU per heavy atom,decoy
+2,14,131,1834,0.3980370774263904,AutoDock-GPU per heavy atom,decoy
+3,14,125,1750,0.396,AutoDock-GPU per heavy atom,decoy
+0,25,154,3850,0.5011688311688312,AutoDock-GPU per heavy atom^(1/3),decoy
+1,26,222,5772,0.4041060291060291,AutoDock-GPU per heavy atom^(1/3),decoy
+2,14,131,1834,0.3950381679389313,AutoDock-GPU per heavy atom^(1/3),decoy
+3,14,125,1750,0.40514285714285714,AutoDock-GPU per heavy atom^(1/3),decoy
+0,25,154,3850,0.5781818181818181,gnina (Vina-type) per heavy atom,decoy
+1,26,222,5772,0.6304573804573804,gnina (Vina-type) per heavy atom,decoy
+2,14,131,1834,0.5119956379498364,gnina (Vina-type) per heavy atom,decoy
+3,14,125,1750,0.43885714285714283,gnina (Vina-type) per heavy atom,decoy
+0,25,154,3850,0.535064935064935,gnina (Vina-type) per heavy atom^(1/3),decoy
+1,26,222,5772,0.6361746361746362,gnina (Vina-type) per heavy atom^(1/3),decoy
+2,14,131,1834,0.4994547437295529,gnina (Vina-type) per heavy atom^(1/3),decoy
+3,14,125,1750,0.42228571428571426,gnina (Vina-type) per heavy atom^(1/3),decoy
+0,25,154,3850,0.4716883116883117,fusion: rank mean,decoy
+1,26,222,5772,0.5129071379071379,fusion: rank mean,decoy
+2,14,131,1834,0.4149400218102508,fusion: rank mean,decoy
+3,14,125,1750,0.39085714285714285,fusion: rank mean,decoy
+0,25,154,3850,0.44077922077922077,fusion: reciprocal rank,decoy
+1,26,222,5772,0.544005544005544,fusion: reciprocal rank,decoy
+2,14,131,1834,0.49073064340239914,fusion: reciprocal rank,decoy
+3,14,125,1750,0.404,fusion: reciprocal rank,decoy
+0,25,154,3850,0.46285714285714286,fusion: redocking-weighted z,decoy
+1,26,222,5772,0.5289327789327789,fusion: redocking-weighted z,decoy
+2,14,131,1834,0.4520174482006543,fusion: redocking-weighted z,decoy
+3,14,125,1750,0.39485714285714285,fusion: redocking-weighted z,decoy
+0,25,154,3850,0.46675324675324675,interaction recall,decoy
+1,26,222,5772,0.46803534303534305,interaction recall,decoy
+2,14,131,1834,0.5114503816793893,interaction recall,decoy
+3,14,125,1750,0.5725714285714286,interaction recall,decoy

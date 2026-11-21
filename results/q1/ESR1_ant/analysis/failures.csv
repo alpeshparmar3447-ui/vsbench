@@ -1,0 +1,3 @@
+class,n,ligand_prep_failed,autodock_failed,gnina_failed,gnina_clash_gt0,autodock_positive,frozen_flexible,charge_flag,chelator_needs_manual_ionisation,chelator_deprotonated,ligand_prep_failed_frac,autodock_failed_frac,gnina_failed_frac,gnina_clash_gt0_frac,autodock_positive_frac,chelator_needs_manual_ionisation_frac,chelator_deprotonated_frac,frozen_flexible_frac,charge_flag_frac
+active,40,0,0,0,2,0,0,0,0,0,0.0,0.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+inactive,940,0,0,0,40,0,0,0,13,0,0.0,0.0,0.0,0.0425531914893617,0.0,0.013829787234042552,0.0,0.0,0.0

@@ -1,0 +1,2 @@
+n,n_active,auc_min,auc_max,auc_range,mean_spearman_between_seeds,mean_abs_cnn_vs_difference
+60,27,0.6206509539842873,0.6386083052749719,0.017957351290684653,0.792238584792072,0.4777281562499998

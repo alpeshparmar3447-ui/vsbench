@@ -1,0 +1,13 @@
+template,method,n_pockets,best_recovery,rank_of_site,top1_hit,top3_hit,site_pocket_druggability,site_pocket_volume,target,control_role,description,n_native_residues,ligand_buried_fraction
+1HXB,fpocket,5,1.0,4,False,False,0.055,1697.649,CONTROL,positive,HIV-1 protease with saquinavir,29,0.575
+1HXB,dogsite,4,1.0,1,True,True,0.812791,988.22,CONTROL,positive,HIV-1 protease with saquinavir,29,0.575
+1M17,fpocket,27,0.5294117647058824,2,False,True,0.315,480.362,CONTROL,positive,EGFR kinase with erlotinib,17,0.885
+1M17,dogsite,12,0.9411764705882352,1,True,True,0.808277,583.94,CONTROL,positive,EGFR kinase with erlotinib,17,0.885
+1CIL,fpocket,16,0.65,8,False,False,0.337,347.332,CONTROL,positive,carbonic anhydrase II with a sulfonamide (zinc enzyme),20,0.73
+1CIL,dogsite,8,0.85,1,True,True,0.641215,378.11,CONTROL,positive,carbonic anhydrase II with a sulfonamide (zinc enzyme),20,0.73
+1BZC,fpocket,19,0.8125,1,True,True,0.288,581.98,CONTROL,negative,"PTP1B with an inhibitor: a polar, historically difficult pocket",16,0.93
+1BZC,dogsite,12,0.875,1,True,True,0.736082,492.42,CONTROL,negative,"PTP1B with an inhibitor: a polar, historically difficult pocket",16,0.93
+1HXB,p2rank,1,0.9310344827586208,1,True,True,0.891,,CONTROL,positive,HIV-1 protease with saquinavir,29,0.575
+1M17,p2rank,2,0.7058823529411765,1,True,True,0.561,,CONTROL,positive,EGFR kinase with erlotinib,17,0.885
+1CIL,p2rank,2,0.85,1,True,True,0.934,,CONTROL,positive,carbonic anhydrase II with a sulfonamide (zinc enzyme),20,0.73
+1BZC,p2rank,5,0.6875,1,True,True,0.426,,CONTROL,negative,"PTP1B with an inhibitor: a polar, historically difficult pocket",16,0.93
